@@ -1,6 +1,19 @@
 def bubble_sort(items):
 
-    '''Returns array of items, sorted in ascending order'''
+    '''
+    Returns array of items, sorted in ascending order using a bubble sort
+
+    Args:
+        items (array): list or array-like object containing numerical values.
+
+    Returns:
+        array: items that are sorted, in ascending order.
+
+    Examples:
+        >>> bubble_sort([8, 3, 2, 7, 4])
+        [2, 3, 4, 7, 8]
+
+    '''
 
     # iterate through entire array comparing two pairs of numbers and swapping if it passes a condition
     for x in range(len(items)):
@@ -13,7 +26,20 @@ def bubble_sort(items):
 
 def merge_sort(items):
 
-    '''Return array of items, sorted in ascending order'''
+    '''
+    Return array of items, sorted in ascending order using a merge sort
+
+    Args:
+        items (array): list or array-like object containing numerical values.
+
+    Returns:
+        array: items that are sorted, in ascending order.
+
+    Examples:
+        >>> merge_sort([8, 3, 2, 7, 4])
+        [2, 3, 4, 7, 8]
+
+    '''
 
     # define a linear merge in order to merge the two resulting lists
     def linear_merge(list1, list2):
@@ -43,7 +69,20 @@ def merge_sort(items):
 
 def quick_sort(items):
 
-    '''Return array of items, sorted in ascending order'''
+    '''
+    Return array of items, sorted in ascending order using a quick sort
+
+    Args:
+        items (array): list or array-like object containing numerical values.
+
+    Returns:
+        array: items that are sorted, in ascending order.
+
+    Examples:
+        >>> quick_sort([8, 3, 2, 7, 4])
+        [2, 3, 4, 7, 8]
+
+    '''
 
     len_items = len(items)
 

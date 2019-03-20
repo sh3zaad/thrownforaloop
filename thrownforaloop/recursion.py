@@ -1,6 +1,19 @@
 def sum_array(array):
 
-    '''Return sum of all items in array'''
+    '''
+    Return sum of all items in array
+
+    Args:
+        array (array): list or array-like object containing numerical values.
+
+    Returns:
+        int: sum of all items in array.
+
+    Examples:
+        >>> sum_array([8, 3, 2, 7, 4])
+        24
+
+    '''
 
     # initialize variable.
     summed = 0
@@ -16,7 +29,20 @@ def sum_array(array):
 
 def fibonacci(n):
 
-    '''Return nth term in fibonacci sequence'''
+    '''
+    Return nth term in fibonacci sequence
+
+    Args:
+        n (int): interger value starting from 0.
+
+    Returns:
+        int: interger that is the nth number in the fibonacci sequence.
+
+    Examples:
+        >>> fibonacci(8)
+        21
+
+    '''
 
     if n == 0:
         return 0
@@ -28,7 +54,20 @@ def fibonacci(n):
 
 def factorial(n):
 
-    '''Return n!'''
+    '''
+    Return a factorial
+
+    Args:
+        n (int): interger value starting from 0.
+
+    Returns:
+        int: interger that is the factorial of the interger n.
+
+    Examples:
+        >>> factorial(5)
+        120
+
+    '''
 
     if n == 0:
         return 1 # factorial of 0 is 1.
@@ -38,7 +77,20 @@ def factorial(n):
 
 def reverse(word):
 
-    '''Return word in reverse'''
+    '''
+    Return a string that is reversed
+
+    Args:
+        word (str): string value.
+
+    Returns:
+        str: string that is the reverse of the inputed string.
+
+    Examples:
+        >>> reverse('cows')
+        swoc
+
+    '''
 
     if len(word) == 0:
         return word
